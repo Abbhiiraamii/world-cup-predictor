@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+logs/
+.pytest_cache/
+.DS_Store
+*.egg-info/
+
+# Keep sample data & trained model committed so the app runs instantly on
+# clone, but ignore regenerated/experimental artifacts if you rebuild:
+# data/processed/*.csv
+# models/*
